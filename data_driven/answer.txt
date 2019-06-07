@@ -1,0 +1,17 @@
+A. Users should be able:
+    1. View all plans available with the details above  - 'api/plan/'
+    2. Instantiate new carts                            - 'api/user/<int:pk>/cart_item/' or 'api/user/<int:pk>/cart/'
+    3. Add items to the carts                           - 'api/user/<int:pk>/cart_item/' or 'api/user/<int:user_id>/cart/<int:pk>/'
+    4. Change the count of an item in a cart            - 'api/user/<int:user_id>/cart/<int:pk>/cart_item/<int:pk>'
+    5. Remove an item from the cart                     - 'api/user/<int:user_id>/cart/<int:pk>/cart_item/<int:pk>'
+    6. See the items in a cart                          - 'api/user/<int:user_id>/cart/<int:pk>/cart_item'
+    7. Pay for the cart                                 - 'api/cart/<int:pk>/paid' or 'api/user/<int:user_id>/cart/<int:pk>/'
+        - Just create an endpoint that when invoked, automatically marks the cart as paid
+
+b. You can use any protocol/paradigm for your API, and you can third party libraries
+when creating the API
+    i. Describe your API and the decisions you took when designing it
+
+Answer:
+I used django generics APIView because it's easier to implement and it saves a lot of time to code vs the normal APIView.
+

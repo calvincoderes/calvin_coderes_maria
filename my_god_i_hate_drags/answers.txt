@@ -1,0 +1,14 @@
+How is Maria Health’s method of loading pages better than the traditional method?:
+
+Using AJAX has advantages in load/rendiring time and the memory needed for it since it uses AJAX and only loads specific part of the page when data is fetched.
+This also means that data retrieval and data display is faster than traditional method
+
+
+How is it worse?:
+
+Javascript can be disabled in browsers and will make the application not working. Also, SEO or search engine indexing has problems with AJAX based web apps.
+
+
+When should each be used over the other?:
+
+We can use traditional method on most part especially on pages that do not handle heavy data requests, but let's say functions like add to cart, update profile, dashboards, maybe it is more efficient to use AJAX to fetch data, and dyanamically change data display using the data instead of reloading the whole page again via traditional method.

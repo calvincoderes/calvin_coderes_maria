@@ -1,0 +1,9 @@
+{
+  "text_welcome": "Welcome!",
+  "text_login": "Login",
+  "text_home": "Home",  
+  "text_pending_state": "Loading ...",
+  "text_fulfilled_state": "Fulfilled State",
+  "text_rejected_state": "Rejected",
+  "text_idle_state": "Idle"
+}

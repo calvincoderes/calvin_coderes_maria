@@ -1,0 +1,21 @@
+3. Describe the complexity of your program, and how it behaves as the value of X
+increases.
+
+Answer:
+The initial 2 numbers of the sequence is almost constant, (0 and 1)
+therefore we can define these two numbers as a given for the equation.
+variable x is the nth term of the sequence.
+For loop is used to start the sequence from 1 up to the nth sequence to print the fibonacci numbers
+
+to handle the condition of printing "Maria", "Health", "Maria Health" if nth term is multiple or 3, 5, and both respectively,
+i used modulo (%).
+
+so if x = 15n
+(15 % 3) will return no remainder, therefore it is a multiple of 3 which will print "Maria"
+(15 % 5) will return no remainder, therefore it is a multiple of 5 which will print "Health"
+the number is a multiple of both so it will print "Maria Healt"
+
+
+var num1 is = Xn-2
+var num2 is = Xn-1
+

@@ -1,0 +1,8 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.app-header-logo {
+  margin: 16px 28px 16px 0;
+  float: left;
+  height: 32px;
+}
