@@ -1,0 +1,5 @@
+i. Describe your API and the decisions you took when designing it - Django is relatively new to me, but most of my decision was with the schema design, denormalizing a few tables is my idea to declutter and avoid too many redundancy in data
+
+
+
+
